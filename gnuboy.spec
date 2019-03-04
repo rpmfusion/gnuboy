@@ -12,6 +12,7 @@ Patch2: gnuboy-1.0.3-manpages.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: SDL-devel >= 1.2.0
 BuildRequires: libXt-devel
+BuildRequires: gcc
 %ifarch %{ix86} x86_64
 BuildRequires: svgalib-devel
 %endif
