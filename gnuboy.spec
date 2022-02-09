@@ -9,6 +9,7 @@ Patch0: gnuboy-1.0.3-s64.patch
 Patch1: gnuboy-1.0.3-xgnuboy.patch
 Patch2: gnuboy-1.0.3-manpages.patch
 BuildRequires: SDL-devel >= 1.2.0
+BuildRequires: libXext-devel
 BuildRequires: libXt-devel
 BuildRequires: gcc
 
