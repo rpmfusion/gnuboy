@@ -1,7 +1,7 @@
 Summary: Nintendo GameBoy Color emulator
 Name: gnuboy
 Version: 1.0.3
-Release: 31%{?dist}
+Release: 32%{?dist}
 License: GPLv2
 URL: http://brightrain.aerifal.cx/~laguna/
 Source: http://brightrain.aerifal.cx/~laguna/src/%{name}-%{version}.tar.gz
@@ -107,6 +107,9 @@ install -m 644 xgnuboy.1 %{buildroot}%{_mandir}/man1
 %doc etc/*.rc
 
 %changelog
+* Sat Feb 03 2024 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 1.0.3-32
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_40_Mass_Rebuild
+
 * Wed Aug 02 2023 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 1.0.3-31
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_39_Mass_Rebuild
 
