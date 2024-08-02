@@ -65,10 +65,10 @@ This is the frame buffer version.
 %prep
 %setup -q
 %ifarch %{ix86} ppc
-%patch0 -p1
+%patch -P0 -p1
 %endif
-%patch1 -p1
-%patch2 -p1
+%patch -P1 -p1
+%patch -P2 -p1
 
 %build
 %configure --disable-arch --disable-optimize --disable-asm \
